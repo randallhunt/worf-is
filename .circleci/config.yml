@@ -7,3 +7,6 @@ workflows:
   heroku_deploy:
     jobs:
       - heroku/deploy-via-git:
+          app-name: "worf-is"
+          branch: master 
+          api-key: HEROKU_API_KEY
