@@ -1,9 +1,9 @@
 version: 2.1
 
 orbs:
-  heroku: circleci/heroku@0.0.10  # 1.2.6
+  heroku: circleci/heroku@1.2.6
 
 workflows:
-  heroku-deploy:
+  heroku_deploy:
     jobs:
       - heroku/deploy-via-git:
