@@ -27,4 +27,4 @@ workflows:
       - heroku/deploy-via-git:
           app-name: worf-is 
           branch: master 
-          api-key: dc6839d8-e45f-4d83-9dac-d1781a07d8b4 
+          api-key: heroku_key
