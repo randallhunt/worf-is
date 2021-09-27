@@ -9,4 +9,5 @@ workflows:
       - heroku/deploy-via-git:
           app-name: "worf-is"
           branch: master 
-          api-key: HEROKU_API_KEY
+          api-key: HEROKU_API_KEY # this environment variable goes in CircleCI
+        
